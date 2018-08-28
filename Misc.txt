@@ -1,0 +1,2 @@
+filter values and grep those in main file
+grep "`sh test.sh test1.csv`" test1.csv > test2.csv
