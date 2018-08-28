@@ -1,2 +1,5 @@
 filter values and grep those in main file
 grep "`sh test.sh test1.csv`" test1.csv > test2.csv
+
+Larger files, use, it uses RAM:
+LC_ALL=C grep -f test1.csv test2.csv > test2.csv
