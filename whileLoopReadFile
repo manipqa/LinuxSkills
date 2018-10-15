@@ -1,0 +1,4 @@
+while IFS=, read -r f1 f2
+do
+echo `grep $f1 file2.csv|awk -F"," '{print $2}'`,$f2
+done <"file1.csv"
